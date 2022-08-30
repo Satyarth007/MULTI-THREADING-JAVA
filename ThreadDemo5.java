@@ -17,9 +17,9 @@ public class ThreadDemo5 {
 		System.out.println("MAIN METHOD");
 		// there are three possibilities of output .
 		/*  
-		       P-1 					P-2		              P-3
+		       P-1 			   P-2		                     P-3
 		   START METHOD 		RUN METHOD			  START METHOD
-		   RUN METHOD			START METHOD		  MAIN METHOD
+		   RUN METHOD			START METHOD		          MAIN METHOD
 		   MAIN METHOD			MAIN METHOD			  RUN METHOD
 		 
 		*/
