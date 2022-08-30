@@ -19,7 +19,7 @@ public class ThreadDemo4 {
 		// OUTPUT :-
 		/* 
 		     START METHOD
-             MAIN METHOD
+                     MAIN METHOD
 		*/
 	}
 
