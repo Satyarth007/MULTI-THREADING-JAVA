@@ -23,9 +23,10 @@ public class ThreadDemo8 {
 		 1. getPriority();
 		 2. setPriority(int P);
 		 
-NOTE :- t.setPriority(18) will give Runtime Exception saying :- IllegalArgumentException
+NOTE :- t.setPriority(18) will give Runtime Exception saying :- IllegalArgumentException.
 NOTE :- DEFAULT PRIORITY OF MAIN THREAD =5.
-NOTE :- REST THREADS HAVE DEFAULT PRIORITY ACCORDING TO THEIR PARENT-CHILD RELATIONSHIP		 
+NOTE :- REST THREADS HAVE DEFAULT PRIORITY ACCORDING TO THEIR PARENT-CHILD RELATIONSHIP.	
+NOTE :- SOME SYSTEM WON'T PROVIDE SUPPORT FOR THREAD PRIORITY.	
 		*/
 		MyThread8 t=new MyThread8();
 		t.setPriority(10);
