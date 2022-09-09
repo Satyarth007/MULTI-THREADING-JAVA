@@ -1,3 +1,5 @@
+// code by - SATYARTH 
+// Read the entire code have complete knowledge about join() method 
 /*
   join() :- If a thread wants to wait until completing some other thread then we should go for join(). 
   ======
@@ -97,14 +99,6 @@ public class ThreadDemo10 {
   				}	
   			}
   		OUTPUT:- no output for infinite time 		
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
