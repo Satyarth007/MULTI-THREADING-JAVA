@@ -50,11 +50,11 @@ class THREADX extends Thread
 	int sum=0;
 	public void run() {
 		synchronized(this) {
-			System.out.println("CHILD THREAD STARTS CALCULATION");	//2
+			System.out.println("CHILD THREAD STARTS CALCULATION");	 //2
 			for(int i=1;i<=100;i++) {
 				sum+=i;
 			}
-			System.out.println("CHILD THREAD GIVING NOTIFICATION ");	//3
+			System.out.println("CHILD THREAD GIVING NOTIFICATION "); //3
 			this.notify();
 		}
 	}
@@ -66,8 +66,8 @@ public class ThreadDemo17 {
 		synchronized(x) {
 			System.out.println("MAIN THREAD CALLING WAIT METHOD");    //1
 			x.wait();
-			System.out.println("MAIN THREAD GOT NOTIFICATION");		  //4
-			System.out.println(x.sum);								  //5
+			System.out.println("MAIN THREAD GOT NOTIFICATION");       //4
+			System.out.println(x.sum);			          //5
 		}
 
 	}
