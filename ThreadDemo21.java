@@ -1,10 +1,10 @@
 /*
  							METHODS OF THREAD GROUP
  							=======================
- 	1. String getName() :- returns name of the THREAD GROUP
- 	   ================	
+    1. String getName() :- returns name of the THREAD GROUP
+       ================	
  						
- 	2. int getMaxPriority():- returns max priority of thread group.
+    2. int getMaxPriority():- returns max priority of thread group.
        ====================
        
     3. void setMaxPriority(int p):- to set maximum priority (DEFAULT =10)
